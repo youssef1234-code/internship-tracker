@@ -23,12 +23,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Separator } from "../ui/separator.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Label } from "../ui/label.tsx";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
   Dialog,
@@ -38,7 +38,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "../ui/dialog.tsx";
 import {
   saveToStore,
   getFromStore,
@@ -583,3 +583,4 @@ export default function InternDetail() {
     </>
   );
 }
+

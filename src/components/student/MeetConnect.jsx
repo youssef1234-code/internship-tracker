@@ -18,10 +18,10 @@ import {
 } from "lucide-react";
 import WarningPopup from "@/components/common/WarningPopup";
 
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "../ui/button.tsx";
+import { Avatar, AvatarFallback } from "../ui/avatar.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Dialog,
   DialogContent,
@@ -29,16 +29,16 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Textarea } from "@/components/ui/textarea";
-import { Separator } from "@/components/ui/separator";
+} from "../ui/dialog.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Separator } from "../ui/separator.tsx";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { ScrollArea } from "@/components/ui/scroll-area";
+} from "../ui/tooltip.tsx";
+import { ScrollArea } from "../ui/scroll-area.tsx";
 
 export default function MeetConnect({ workshopTitle, onLeave }) {
   // Sample participant data with handRaised property
@@ -718,3 +718,4 @@ export default function MeetConnect({ workshopTitle, onLeave }) {
     </>
   );
 }
+

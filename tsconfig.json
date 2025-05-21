@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020", "ESNext"],
+    "skipLibCheck": true,
+    "types": ["react/jsx-runtime"]
+  },
+  "extends": "./tsconfig.app.json"
 }

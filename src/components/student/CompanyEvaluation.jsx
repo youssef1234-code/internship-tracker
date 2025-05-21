@@ -6,20 +6,20 @@ import {
   CardHeader,
   CardTitle,
   CardFooter,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Input } from "../ui/input.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Checkbox } from "../ui/checkbox.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Label } from "@/components/ui/label";
+} from "../ui/select.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Label } from "../ui/label.tsx";
 import { AlertCircle, FileText } from "lucide-react";
 import {
   saveToStore,
@@ -1779,3 +1779,4 @@ export default function CompanyEvaluation() {
     </>
   );
 }
+

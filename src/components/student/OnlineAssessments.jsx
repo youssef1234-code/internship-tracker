@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import { motion, AnimatePresence } from "framer-motion";
 import { saveToStore, getFromStore } from "../../utils/indexedDB-utils";
 const containerVariants = {
@@ -270,3 +270,4 @@ export default function OnlineAssessments() {
     </motion.div>
   );
 }
+

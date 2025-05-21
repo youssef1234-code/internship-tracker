@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Dialog,
   DialogContent,
@@ -14,11 +14,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+} from "../ui/dialog.tsx";
+import { Button } from "../ui/button.tsx";
+import { Label } from "../ui/label.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Separator } from "../ui/separator.tsx";
 import {
   User,
   GraduationCap,
@@ -40,8 +40,8 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from "@/components/ui/sheet";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+} from "../ui/sheet.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
 
 const isUserPro = async (email) => {
   try {
@@ -648,3 +648,4 @@ const StudentsList = () => {
 };
 
 export default StudentsList;
+

@@ -14,7 +14,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import InternshipSuggestions from "./InternshipSuggestions";
 import { getAllFromStore } from "../../utils/indexedDB-utils";
 
@@ -191,3 +191,4 @@ export default function InternshipListing({ companyOnly = false }) {
     </>
   );
 }
+

@@ -17,10 +17,10 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+} from "../ui/card.tsx";
+import { Input } from "../ui/input.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Button } from "../ui/button.tsx";
 import DataTable from "@/components/common/DataTable";
 import {
   Dialog,
@@ -29,8 +29,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from "@/components/ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+} from "../ui/dialog.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
 import { format } from "date-fns";
 import { getAllFromStore } from "../../utils/indexedDB-utils";
 
@@ -484,3 +484,4 @@ export default function InternEvaluationsView() {
     </>
   );
 }
+

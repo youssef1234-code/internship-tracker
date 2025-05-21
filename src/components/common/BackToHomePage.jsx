@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button.tsx"
 import { useNavigate } from "react-router-dom"
 
 export default function BackToHomePage() {
@@ -13,3 +13,4 @@ export default function BackToHomePage() {
     </div>
   );
 }
+

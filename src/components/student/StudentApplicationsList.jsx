@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Badge } from "../ui/badge.tsx";
 import DataTable from "../common/DataTable";
 import { format } from "date-fns";
 import { CalendarIcon, Building, Briefcase } from "lucide-react";
@@ -172,3 +172,4 @@ const StudentApplicationsList = () => {
 };
 
 export default StudentApplicationsList;
+

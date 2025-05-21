@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import DataTable from "../common/DataTable";
 import {
   Dialog,
@@ -16,14 +16,14 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/dialog.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
 import { Check, X, Search, Filter, Eye, Columns, Download } from "lucide-react";
 import { getAllFromStore, saveToStore } from "@/utils/indexedDB-utils";
 import { downloadBase64File } from "@/utils/file-utils";
 import { sendCompanyApprovalEmail } from "@/utils/email-utils";
-import { Input } from "@/components/ui/input";
+import { Input } from "../ui/input.tsx";
 
 const CompanyApprovalList = () => {
   const [companies, setCompanies] = useState();
@@ -317,3 +317,4 @@ const CompanyApprovalList = () => {
 };
 
 export default CompanyApprovalList;
+

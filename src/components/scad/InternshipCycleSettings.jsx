@@ -5,18 +5,18 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon, Edit2, Save } from "lucide-react";
 import WarningPopup from "@/components/common/WarningPopup";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
+import { cn } from "../../lib/utils.ts";
+import { Button } from "../ui/button.tsx";
+import { Calendar } from "../ui/calendar.tsx";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "../ui/popover.tsx";
 import { addNotification } from "@/utils/notification-utils";
 
 const InternshipCycleSettings = () => {
@@ -253,3 +253,4 @@ const InternshipCycleSettings = () => {
 };
 
 export default InternshipCycleSettings;
+

@@ -6,7 +6,7 @@ import {
   getAllFromStore,
 } from "../../utils/indexedDB-utils";
 import { addNotification } from "../../utils/notification-utils";
-import { Input } from "@/components/ui/input";
+import { Input } from "../ui/input.tsx";
 import {
   Mic,
   MicOff,
@@ -31,7 +31,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+} from "../ui/alert-dialog.tsx";
 import {
   Card,
   CardContent,
@@ -39,22 +39,22 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Calendar } from "@/components/ui/calendar";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Textarea } from "@/components/ui/textarea";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/card.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Calendar } from "../ui/calendar.tsx";
+import { Label } from "../ui/label.tsx";
+import { Button } from "../ui/button.tsx";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Separator } from "@/components/ui/separator";
+} from "../ui/select.tsx";
+import { Separator } from "../ui/separator.tsx";
 // Import table components from shadcn
 import {
   Table,
@@ -63,7 +63,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "../ui/table.tsx";
 import { differenceInDays, parseISO } from "date-fns";
 
 export default function ScadAppointments() {
@@ -846,3 +846,4 @@ export default function ScadAppointments() {
     </div>
   );
 }
+

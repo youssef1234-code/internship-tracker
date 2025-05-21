@@ -32,10 +32,10 @@ import {
   CardHeader,
   CardTitle,
   CardFooter,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Separator } from "../ui/separator.tsx";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
   Dialog,
@@ -44,7 +44,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "../ui/dialog.tsx";
 import {
   getAllFromStore,
   getFromStore,
@@ -739,3 +739,4 @@ export default function CompanyApplicationView() {
     </>
   );
 }
+

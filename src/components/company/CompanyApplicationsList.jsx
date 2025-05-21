@@ -8,9 +8,9 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import { format } from "date-fns";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "../ui/badge.tsx";
 import { getAllFromStore } from "../../utils/indexedDB-utils";
 
 export default function CompanyApplicationsList({ companyOnly = true }) {
@@ -198,3 +198,4 @@ export default function CompanyApplicationsList({ companyOnly = true }) {
     </Card>
   );
 }
+

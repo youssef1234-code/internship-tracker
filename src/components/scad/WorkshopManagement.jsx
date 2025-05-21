@@ -25,13 +25,13 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "../ui/accordion.tsx";
 import {
   Form,
   FormControl,
@@ -39,19 +39,19 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from "../ui/form.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select.tsx";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "../ui/popover.tsx";
 import {
   Dialog,
   DialogContent,
@@ -60,14 +60,14 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogFooter,
-} from "@/components/ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Calendar } from "@/components/ui/calendar";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+} from "../ui/dialog.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Calendar } from "../ui/calendar.tsx";
+import { Input } from "../ui/input.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { cn } from "../../lib/utils.ts";
 
 import {
   saveToStore,
@@ -1208,3 +1208,4 @@ export default function WorkshopsManager() {
     </>
   );
 }
+

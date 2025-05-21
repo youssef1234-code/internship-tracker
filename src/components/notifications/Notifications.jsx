@@ -3,9 +3,9 @@ import { Bell, ExternalLink } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { format, formatDistanceToNow } from "date-fns";
 
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { ScrollArea } from "../ui/scroll-area.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,7 +13,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../ui/dropdown-menu.tsx";
 
 import {
   Dialog,
@@ -24,7 +24,7 @@ import {
   DialogTrigger,
   DialogFooter,
   DialogClose,
-} from "@/components/ui/dialog";
+} from "../ui/dialog.tsx";
 
 import { saveToStore, getAllFromStore } from "@/utils/indexedDB-utils";
 
@@ -354,3 +354,4 @@ const Notifications = ({ user }) => {
 };
 
 export default Notifications;
+

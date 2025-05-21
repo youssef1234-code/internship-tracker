@@ -19,7 +19,7 @@ import {
   Star,
 } from "lucide-react";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet.tsx";
 
 import {
   DropdownMenu,
@@ -28,7 +28,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../ui/dropdown-menu.tsx";
 
 import {
   AlertDialog,
@@ -40,16 +40,16 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "../ui/alert-dialog.tsx";
 
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
+} from "../ui/tooltip.tsx";
 
 import Notifications from "@/components/notifications/Notifications";
 import logo from "@/assets/logo.svg";
@@ -488,3 +488,4 @@ const AppLayout = ({ user, onLogout }) => {
 };
 
 export default AppLayout;
+

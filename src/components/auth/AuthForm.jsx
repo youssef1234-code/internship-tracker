@@ -8,19 +8,19 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Input } from "../ui/input.tsx";
+import { Label } from "../ui/label.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select.tsx";
 import { AlertCircle, Loader2, Mail } from "lucide-react";
-import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Alert, AlertDescription } from "../ui/alert.tsx";
 import { getFromStore, getAllFromStore } from "@/utils/indexedDB-utils";
 import { differenceInDays, parseISO } from "date-fns";
 import { addNotification } from "@/utils/notification-utils";

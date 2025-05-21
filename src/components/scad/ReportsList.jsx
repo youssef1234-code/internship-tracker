@@ -6,11 +6,11 @@ import {
   CardTitle,
   CardFooter,
   CardDescription,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Input } from "../ui/input.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Dialog,
   DialogContent,
@@ -18,8 +18,8 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+} from "../ui/dialog.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
 import {
   AlertCircle,
   CheckCircle,
@@ -29,7 +29,7 @@ import {
   XCircle,
   Download,
 } from "lucide-react";
-import { Label } from "@/components/ui/label";
+import { Label } from "../ui/label.tsx";
 import { getAllFromStore, saveToStore } from "@/utils/indexedDB-utils";
 import DataTable from "@/components/common/DataTable";
 import { downloadBase64File } from "@/utils/file-utils";
@@ -638,3 +638,4 @@ export default function ReportList() {
     </div>
   );
 }
+

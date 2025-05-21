@@ -17,17 +17,17 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+} from "../ui/accordion.tsx";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { cn } from "../../lib/utils.ts";
 import {
   Dialog,
   DialogContent,
@@ -35,8 +35,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from "@/components/ui/dialog";
-import { Textarea } from "@/components/ui/textarea";
+} from "../ui/dialog.tsx";
+import { Textarea } from "../ui/textarea.tsx";
 import jsPDF from "jspdf";
 import MeetConnect from "./MeetConnect";
 import VideoPlayback from "./VideoPlayback";
@@ -1405,3 +1405,4 @@ export default function WorkshopManagementProStudent() {
     </>
   );
 }
+

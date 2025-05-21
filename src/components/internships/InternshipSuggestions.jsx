@@ -17,8 +17,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/card.tsx";
+import { Badge } from "../ui/badge.tsx";
 import { motion, AnimatePresence } from "framer-motion";
 import { getFromStore } from "../../utils/indexedDB-utils";
 
@@ -386,3 +386,4 @@ export default function InternshipSuggestions({ allInternships }) {
     </motion.div>
   );
 }
+

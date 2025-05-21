@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { motion, AnimatePresence } from "framer-motion";
 import { format, parseISO } from "date-fns";
 import { PlusCircle, Trash2, Save, Loader2, CalendarIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils.ts";
 import {
   Form,
   FormControl,
@@ -12,7 +12,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from "../ui/form.tsx";
 import {
   Card,
   CardHeader,
@@ -20,31 +20,31 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Switch } from "@/components/ui/switch";
+} from "../ui/accordion.tsx";
+import { Switch } from "../ui/switch.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/select.tsx";
+import { Input } from "../ui/input.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { Calendar } from "@/components/ui/calendar";
+} from "../ui/popover.tsx";
+import { Calendar } from "../ui/calendar.tsx";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
   getFromStore,
@@ -884,3 +884,4 @@ const formatDateRange = (dateFrom, dateTo) => {
 };
 
 export default StudentProfileForm;
+

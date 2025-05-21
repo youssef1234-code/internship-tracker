@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { ChevronDown, ChevronUp, Search, Filter, Settings } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "../ui/input.tsx";
+import { Button } from "../ui/button.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
   DropdownMenuLabel,
-} from "@/components/ui/dropdown-menu";
+} from "../ui/dropdown-menu.tsx";
 import {
   Table,
   TableBody,
@@ -18,8 +18,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/table.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Pagination,
   PaginationContent,
@@ -27,8 +27,8 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination";
-import { Checkbox } from "@/components/ui/checkbox";
+} from "../ui/pagination.tsx";
+import { Checkbox } from "../ui/checkbox.tsx";
 
 export default function DataTable({
   data = [],
@@ -463,3 +463,4 @@ export default function DataTable({
     </div>
   );
 }
+

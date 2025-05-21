@@ -14,7 +14,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import { getAllFromStore } from "../../utils/indexedDB-utils";
 
 const getAllApplications = () => getAllFromStore("InternshipApplications");
@@ -187,3 +187,4 @@ export default function InternshipListing({ companyOnly = true }) {
     </Card>
   );
 }
+

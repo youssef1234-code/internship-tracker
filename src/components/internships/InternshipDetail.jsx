@@ -22,12 +22,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Separator } from "../ui/separator.tsx";
+import { Input } from "../ui/input.tsx";
+import { Label } from "../ui/label.tsx";
 import { toast } from "sonner";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
@@ -947,3 +947,4 @@ export default function InternshipDetail() {
     </>
   );
 }
+

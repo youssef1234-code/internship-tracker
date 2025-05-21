@@ -9,7 +9,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+} from "../ui/alert-dialog.tsx";
 import {
   Card,
   CardContent,
@@ -17,21 +17,21 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
-import { Label } from "@/components/ui/label";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Textarea } from "@/components/ui/textarea";
-import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
+} from "../ui/select.tsx";
+import { Button } from "../ui/button.tsx";
+import { Calendar } from "../ui/calendar.tsx";
+import { Label } from "../ui/label.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Separator } from "../ui/separator.tsx";
+import { Badge } from "../ui/badge.tsx";
 import {
   Video,
   VideoOff,
@@ -584,3 +584,4 @@ export default function AppointmentVideoApp() {
     </div>
   );
 }
+

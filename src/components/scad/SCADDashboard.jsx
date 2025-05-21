@@ -24,20 +24,20 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
+} from "../ui/card.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Button } from "../ui/button.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "../ui/select.tsx";
+import { ScrollArea } from "../ui/scroll-area.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Input } from "../ui/input.tsx";
+import { Label } from "../ui/label.tsx";
 import {
   Table,
   TableBody,
@@ -45,8 +45,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Skeleton } from "@/components/ui/skeleton";
+} from "../ui/table.tsx";
+import { Skeleton } from "../ui/skeleton.tsx";
 import {
   RefreshCcw,
   Download,
@@ -2312,3 +2312,4 @@ export default function SCADDashboard() {
     </motion.div>
   );
 }
+

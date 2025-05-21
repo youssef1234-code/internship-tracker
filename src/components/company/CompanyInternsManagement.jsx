@@ -18,11 +18,11 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Input } from "@/components/ui/input";
+} from "../ui/card.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Button } from "../ui/button.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
+import { Input } from "../ui/input.tsx";
 import DataTable from "@/components/common/DataTable";
 import { getAllFromStore, getFromStore } from "../../utils/indexedDB-utils";
 
@@ -322,3 +322,4 @@ export default function CompanyInternsManagement() {
     </Card>
   );
 }
+

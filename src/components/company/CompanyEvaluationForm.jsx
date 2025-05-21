@@ -14,12 +14,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Separator } from "../ui/separator.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Label } from "../ui/label.tsx";
+import { RadioGroup, RadioGroupItem } from "../ui/radio-group.tsx";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
   saveToStore,
@@ -33,7 +33,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogDescription,
-} from "@/components/ui/dialog";
+} from "../ui/dialog.tsx";
 
 export default function CompanyEvaluationForm() {
   const { id } = useParams(); // Intern email or ID
@@ -532,3 +532,4 @@ const RatingScale = ({ value, onChange }) => {
     </RadioGroup>
   );
 };
+

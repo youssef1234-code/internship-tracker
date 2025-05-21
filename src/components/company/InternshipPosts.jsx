@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button.tsx";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "../ui/card.tsx";
 import {
   Form,
   FormControl,
@@ -16,25 +16,25 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Switch } from "@/components/ui/switch";
+} from "../ui/form.tsx";
+import { Input } from "../ui/input.tsx";
+import { Textarea } from "../ui/textarea.tsx";
+import { Switch } from "../ui/switch.tsx";
 import { differenceInMonths, format, parseISO } from "date-fns";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { cn } from "@/lib/utils";
-import { Calendar } from "@/components/ui/calendar";
+} from "../ui/popover.tsx";
+import { cn } from "../../lib/utils.ts";
+import { Calendar } from "../ui/calendar.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select.tsx";
 import { CalendarIcon, Edit, Trash2 } from "lucide-react";
 import WarningPopup from "@/components/common/WarningPopup";
 import {
@@ -678,3 +678,4 @@ const InternshipPosts = () => {
 };
 
 export default InternshipPosts;
+

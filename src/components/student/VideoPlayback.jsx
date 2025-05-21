@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Play, Pause, Square, Volume2, VolumeX } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Slider } from "@/components/ui/slider";
+import { Button } from "../ui/button.tsx";
+import { Slider } from "../ui/slider.tsx";
 
 export default function VideoPlayback({ videoTitle, videoUrl, onExit }) {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -156,3 +156,4 @@ export default function VideoPlayback({ videoTitle, videoUrl, onExit }) {
     </motion.div>
   );
 }
+

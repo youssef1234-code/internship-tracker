@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { AlertCircle, Info, CheckCircle, XCircle, X } from "lucide-react";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Alert, AlertDescription, AlertTitle } from "../ui/alert.tsx";
 import { AnimatePresence, motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button.tsx";
 
 const WarningPopup = ({
   title = "Warning",
@@ -127,3 +127,4 @@ const WarningPopup = ({
   );
 };
 export default WarningPopup;
+

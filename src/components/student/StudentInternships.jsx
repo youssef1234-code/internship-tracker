@@ -9,17 +9,17 @@ import {
   Filter,
   X,
 } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Badge } from "../ui/badge.tsx";
 import DataTable from "@/components/common/DataTable";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs.tsx";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { Calendar } from "@/components/ui/calendar";
+} from "../ui/popover.tsx";
+import { Calendar } from "../ui/calendar.tsx";
 import { format } from "date-fns";
 import { getFromStore, getAllFromStore } from "../../utils/indexedDB-utils";
 
@@ -579,3 +579,4 @@ export default function StudentInternships() {
     </motion.div>
   );
 }
+

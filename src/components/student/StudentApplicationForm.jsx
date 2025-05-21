@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Form, FormControl, FormField, FormItem, FormLabel } from "@/components/ui/form";
+import { Button } from "../ui/button.tsx";
+import { Form, FormControl, FormField, FormItem, FormLabel } from "../ui/form.tsx";
 import { useForm } from "react-hook-form";
-import { Textarea } from "@/components/ui/textarea";
-import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Textarea } from "../ui/textarea.tsx";
+import { Input } from "../ui/input.tsx";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card.tsx";
 import { Upload } from "lucide-react";
 import { toast } from "sonner";
 

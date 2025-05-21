@@ -22,15 +22,15 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Alert, AlertDescription } from "@/components/ui/alert";
+} from "../ui/card.tsx";
+import { Button } from "../ui/button.tsx";
+import { Input } from "../ui/input.tsx";
+import { Label } from "../ui/label.tsx";
+import { Separator } from "../ui/separator.tsx";
+import { ScrollArea } from "../ui/scroll-area.tsx";
+import { Badge } from "../ui/badge.tsx";
+import { Skeleton } from "../ui/skeleton.tsx";
+import { Alert, AlertDescription } from "../ui/alert.tsx";
 import {
   getUserEmails,
   markEmailAsRead,
@@ -545,3 +545,4 @@ const Mailbox = () => {
 };
 
 export default Mailbox;
+

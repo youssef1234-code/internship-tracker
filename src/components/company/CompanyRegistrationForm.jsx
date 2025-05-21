@@ -7,7 +7,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from "../ui/form.tsx";
 import {
   Card,
   CardContent,
@@ -15,16 +15,16 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+} from "../ui/card.tsx";
+import { Input } from "../ui/input.tsx";
+import { Button } from "../ui/button.tsx";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../ui/select.tsx";
 import { Loader2 } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
@@ -289,3 +289,4 @@ const CompanyRegistrationForm = () => {
 };
 
 export default CompanyRegistrationForm;
+
