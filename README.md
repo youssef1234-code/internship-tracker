@@ -1,6 +1,21 @@
-# Internship Tracker
+Internship Tracker
 
 An all-in-one web application for managing internship processes, connecting students, companies, and school administration.
+
+## Preview
+![image](https://github.com/user-attachments/assets/06603f5a-0959-4e4c-965b-0eac45acb969)
+![image](https://github.com/user-attachments/assets/ae4069d2-3453-4fbe-83e8-bb2edae96c24)
+![image](https://github.com/user-attachments/assets/36c6925a-9084-44e7-b249-7f28fff8e883)
+![image](https://github.com/user-attachments/assets/653cb1d8-77b3-48d1-b67d-84eec68c53c3)
+![image](https://github.com/user-attachments/assets/f0a2ad68-6d6e-4c84-ac39-cf909c146cdf)
+![image](https://github.com/user-attachments/assets/b6d269bd-4295-443b-81a5-8514f8fe564a)
+![image](https://github.com/user-attachments/assets/4e36a94e-6d43-4e21-9820-7ea6094ada00)
+![image](https://github.com/user-attachments/assets/81298d3e-a6da-449c-8b56-478f37cecda5)
+![image](https://github.com/user-attachments/assets/fac05b06-51d1-4144-99ee-829237da2e9e)
+![image](https://github.com/user-attachments/assets/1fdd80d9-7491-401a-8264-5af5affc2fac)
+![image](https://github.com/user-attachments/assets/ebd2cca8-7145-4d11-8cd4-d9d7b1c8ae30)
+![image](https://github.com/user-attachments/assets/86eacd08-19df-44b1-ac49-79fc77beaaaa)
+![image](https://github.com/user-attachments/assets/a19f31ed-1ffa-4864-9a6b-a2a8d56aded2)
 
 ## Overview
 
